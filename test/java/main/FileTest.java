@@ -9,15 +9,24 @@ import java.util.Scanner;
 public class FileTest {
     public static void main(String[] args) throws IOException {
 //        fileInputTest();
-        CodeTest codeTest = new CodeTest();
-        int[] num = new int[]{3,2,4};
-        int[] result = codeTest.toSum2(num, 6);
-        System.out.println("result " + result[0] + "," + result[1]);
+//        CodeTest codeTest = new CodeTest();
+//        int[] num = new int[]{3,2,4};
+//        int[] result = codeTest.toSum2(num, 6);
+//        System.out.println("result " + result[0] + "," + result[1]);
+//
+//        ListNodeTest listNodeTest = new ListNodeTest();
+//        int[] a = new int[]{9};
+//        int[] b = new int[]{9};
+//        listNodeTest.addTwoNumbers(a, b);
 
-        ListNodeTest listNodeTest = new ListNodeTest();
-        int[] a = new int[]{9};
-        int[] b = new int[]{9};
-        listNodeTest.addTwoNumbers(a, b);
+//        SubStringTest subStringTest = new SubStringTest();
+//        subStringTest.lengthOfLongestSubstring("abcabcbb");
+
+        MedianSortedTest medianSortedTest = new MedianSortedTest();
+        int[] a = new int[]{1,2};
+        int[] b = new int[]{1,2,3};
+        double result = medianSortedTest.findMedianSortedArrays(a, b);
+        System.out.println("result "+ result);
     }
 
     // 从键盘读取数据
