@@ -22,11 +22,20 @@ public class FileTest {
 //        SubStringTest subStringTest = new SubStringTest();
 //        subStringTest.lengthOfLongestSubstring("abcabcbb");
 
-        MedianSortedTest medianSortedTest = new MedianSortedTest();
-        int[] a = new int[]{1,2};
-        int[] b = new int[]{1,2,3};
-        double result = medianSortedTest.findMedianSortedArrays(a, b);
-        System.out.println("result "+ result);
+//        MedianSortedTest medianSortedTest = new MedianSortedTest();
+//        int[] a = new int[]{1,2};
+//        int[] b = new int[]{1,2,3};
+//        double result = medianSortedTest.findMedianSortedArrays(a, b);
+//        System.out.println("result "+ result);
+
+//        PalindromeStr palindromeStr = new PalindromeStr();
+//        String s = palindromeStr.longestPalindrome("ccsccc");
+//        System.out.println("s: " + s);
+
+        Zigzang zigzang = new Zigzang();
+        String s = zigzang.convert("PAYPALISHIRING",5);
+        System.out.println("s: " + s);
+
     }
 
     // 从键盘读取数据
